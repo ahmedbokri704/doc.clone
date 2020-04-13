@@ -99,6 +99,9 @@ section#section1 h1 {
   display: flex;
   line-height: 1.75;
   font-weight: 400;
+  text-align: left;
+  margin-right: 10px;
+
 }
 
 .paragrahes p {
@@ -250,11 +253,12 @@ section#section5 h5 {
   color: #00ccb1;
   font-weight: 500;
 }
-
+.section4_1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 section#section5 * {
-  max-width: 460px;
-  margin: 40px auto;
- 
+  margin: 10px auto;
   text-align: center;
 }
 section#section5 p {
@@ -262,8 +266,6 @@ section#section5 p {
 }
 .card-title {
   display: flex;
-  justify-content: space-between;
-  padding: -25px;
 }
 .piic{
   justify-content: center;
@@ -275,15 +277,14 @@ section#section5 p {
   width: 31.33%;
   float: left;
   background: #fff;
-  border: 1px solid rgba(0,0,0,.03);
+  border: 10px solid white;
   border-radius: 6px;
   overflow: hidden;
-  max-width: 311px;
-  z-index: 2;
+  justify-content: space-between;
   position: relative;
   display: block;
   color: #747474;
-  margin: 1%;
+  
 }
 
 .card6 button{
@@ -294,6 +295,7 @@ section#section5 p {
   line-height: 0;
   border: 1px solid;
   border-radius: 5px;
+  
 }
 .card6:hover {
   box-shadow: 0 20px 50px 0 rgba(0,0,0,.13);
@@ -328,6 +330,7 @@ footer {
   color: #ababab;
   text-align: center;
   padding: 16px 0;
+  margin-top: 40px;
 
 }
 footer a {
